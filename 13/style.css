@@ -1,0 +1,40 @@
+*{   margin:0;
+  padding:0;
+}
+
+section{
+	display:flex;
+	justify-content:center;
+}
+h1{
+	font-size:60pt;
+	color:green;
+	text-shadow: 0 0 15px black;
+	border-bottom:6px double green;
+	margin-left:20px;
+	font-family:cursie;
+}
+.s1{
+	background-image:url("images/africa.jpg");
+	background-size:cover;
+}
+.s2{
+	background-color:yellow;
+	display:flex;
+	justify-content:start;
+	
+	
+}
+.s2.1{
+	border-radius:50%;
+	background-color:red;
+	display:flex;
+	justify-content:start;
+}
+.s2.2{}
+.s2.3{}
+
+.s3{
+	
+	
+}

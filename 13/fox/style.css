@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Permanent Marker', cursive;
+}
+
+header{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(images/africa.jpg);
+	background-size: cover;
+	padding: 30px;
+}
+
+h1{
+	color: #82b005;
+	font-size: 70pt;
+	margin: 50px;
+	border-bottom: 8px double;
+	text-shadow: -3px -2px 0px black;
+}
+
+#about{
+	display: flex;
+	background-color: #FFD373;
+}
+
+#about img{
+	height: 100%;
+}
+
+#about_inform{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-grow: 1;
+	color: #FFC340;
+	font-size: 14pt;
+	text-align: center;
+	border-left: 8px dotted #82b005;
+	background-color: #FFD373;
+	margin: 15px;
+	padding: 15px;
+
+	
+}
+
+#about_inform div{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#inform1{
+	align-self: flex-start;
+	width: 180px;
+	height:180px;
+	border-radius: 50%;
+	background-color: #82b005;
+	padding: 40px;
+}
+
+#inform2{
+	width: 200px;
+	height:200px;
+	border-radius: 0 50% 50% 50%;
+	background-color: #82b005;
+	padding: 20px 40px 20px 20px;
+	
+}
+
+#inform3{
+	align-self: flex-end;
+	width: 180px;
+	height:180px;
+	border-radius: 0 50%;
+	background-color: #82b005;
+	padding: 40px;
+}
+
+#main_inform{
+	display: flex;
+}
+
+#main_inform_text{
+	background-image: linear-gradient(to top left, #B5D169 0%, #FBFF94 100%);
+	padding: 20px;
+}
+
+#main_inform_text p{
+	padding: 80px;
+	color: #7c3800;
+	font-size: 14pt;
+	text-align: justify;
+	text-indent: 15px;
+	border-style: solid;
+	border-image-width: 40px;
+	border-image-source: url(images/foot_frame.png);
+	border-image-slice: 40;
+	border-image-repeat: round;
+}
+
+#main_inform img{
+	height: 100%;
+} 
+
+#motion{
+	display: flex;
+	padding: 120px 50px;
+	background-image: url(images/bottom_fox.jpg);
+	background-size: cover;
+}
+
+#motion p{
+	padding: 60px 40px;
+	color: #FFFFBF;
+	border: solid 5px;
+	border-image: linear-gradient(to top left, #FFD9B3 0%, #FFFFBF 50%, #FFF345 100%);
+	border-image-slice: 20;
+
+}
+
+#motion span{
+	font-size: 30pt;
+}
+
+
+
+
+
